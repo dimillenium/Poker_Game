@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Poker_game_approfondissement_prog.Classes.ChercherGagnant">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAACAAAAUAACAgAAAAAAAAAAAAAAEAQAQAIAgAg=</HashCode>
+      <FileName>Classes\ChercherGagnant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Classes.Mains">
+    <Position X="17.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwgCAAAAQAAABgJwAgQghAKigAAAIAAQAAQABAAAAE=</HashCode>
+      <FileName>Classes\Mains.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Classes.Moteur_jeu">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAJAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Moteur_jeu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.Humain">
+    <Position X="9" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Humain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.Joueur">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAABAABAAQAAAAAAAAAAAAAQAAAAEBAiQEAAAAQA=</HashCode>
+      <FileName>Models\Joueur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.Ordinateur">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Ordinateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.Table">
+    <Position X="21.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgQAAAIAAAAAAgAAQAIAAAEAQAABAEAAgAAAAAAAA=</HashCode>
+      <FileName>Models\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Poker_game_approfondissement_prog.Models.Enumerations.EAction">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAYAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAACA=</HashCode>
+      <FileName>Models\Enumerations\EAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Poker_game_approfondissement_prog.Models.Enumerations.ECouleursCartes">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgRAAACAA=</HashCode>
+      <FileName>Models\Enumerations\ECouleursCartes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Poker_game_approfondissement_prog.Models.Enumerations.EMains">
+    <Position X="14" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBoAAAAAIAAAAAAACAAAAAAAAAAAAQgAgAQAAAAA=</HashCode>
+      <FileName>Models\Enumerations\EMains.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Poker_game_approfondissement_prog.Models.Enumerations.ETour">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAEAAAAAAEABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enumerations\ETour.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Poker_game_approfondissement_prog.Models.Enumerations.EValeursCartes">
+    <Position X="14.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEACAAAAAAAAAAAAAIFAAAAAAEAAAJBAACAAAAA=</HashCode>
+      <FileName>Models\Enumerations\EValeursCartes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

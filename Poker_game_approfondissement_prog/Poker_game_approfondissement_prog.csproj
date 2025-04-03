@@ -1,0 +1,265 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <StartupObject></StartupObject>
+    <ApplicationIcon>Ressources\autres\PokerToWinIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Classes\Scores.json" />
+    <None Remove="Ressources\autres\.png" />
+    <None Remove="Ressources\autres\PokerToWinIcon.ico" />
+    <None Remove="Ressources\Images\bg_menu.jpg" />
+    <None Remove="Ressources\Images\Bg_poker_table.png" />
+    <None Remove="Ressources\Images\Carreau_1.png" />
+    <None Remove="Ressources\Images\Carreau_10.png" />
+    <None Remove="Ressources\Images\Carreau_11.png" />
+    <None Remove="Ressources\Images\Carreau_12.png" />
+    <None Remove="Ressources\Images\Carreau_13.png" />
+    <None Remove="Ressources\Images\Carreau_2.png" />
+    <None Remove="Ressources\Images\Carreau_3.png" />
+    <None Remove="Ressources\Images\Carreau_4.png" />
+    <None Remove="Ressources\Images\Carreau_5.png" />
+    <None Remove="Ressources\Images\Carreau_6.png" />
+    <None Remove="Ressources\Images\Carreau_7.png" />
+    <None Remove="Ressources\Images\Carreau_8.png" />
+    <None Remove="Ressources\Images\Carreau_9.png" />
+    <None Remove="Ressources\Images\Coeur_1.png" />
+    <None Remove="Ressources\Images\Coeur_10.png" />
+    <None Remove="Ressources\Images\Coeur_11.png" />
+    <None Remove="Ressources\Images\Coeur_12.png" />
+    <None Remove="Ressources\Images\Coeur_13.png" />
+    <None Remove="Ressources\Images\Coeur_2.png" />
+    <None Remove="Ressources\Images\Coeur_3.png" />
+    <None Remove="Ressources\Images\Coeur_4.png" />
+    <None Remove="Ressources\Images\Coeur_5.png" />
+    <None Remove="Ressources\Images\Coeur_6.png" />
+    <None Remove="Ressources\Images\Coeur_7.png" />
+    <None Remove="Ressources\Images\Coeur_8.png" />
+    <None Remove="Ressources\Images\Coeur_9.png" />
+    <None Remove="Ressources\Images\Jeton.png" />
+    <None Remove="Ressources\Images\Ordinateur.png" />
+    <None Remove="Ressources\Images\Pique_1.png" />
+    <None Remove="Ressources\Images\Pique_10.png" />
+    <None Remove="Ressources\Images\Pique_11.png" />
+    <None Remove="Ressources\Images\Pique_12.png" />
+    <None Remove="Ressources\Images\Pique_13.png" />
+    <None Remove="Ressources\Images\Pique_2.png" />
+    <None Remove="Ressources\Images\Pique_3.png" />
+    <None Remove="Ressources\Images\Pique_4.png" />
+    <None Remove="Ressources\Images\Pique_5.png" />
+    <None Remove="Ressources\Images\Pique_6.png" />
+    <None Remove="Ressources\Images\Pique_7.png" />
+    <None Remove="Ressources\Images\Pique_8.png" />
+    <None Remove="Ressources\Images\Pique_9.png" />
+    <None Remove="Ressources\Images\Poker_Mains.png" />
+    <None Remove="Ressources\Images\Trefle_1.png" />
+    <None Remove="Ressources\Images\Trefle_10.png" />
+    <None Remove="Ressources\Images\Trefle_11.png" />
+    <None Remove="Ressources\Images\Trefle_12.png" />
+    <None Remove="Ressources\Images\Trefle_13.png" />
+    <None Remove="Ressources\Images\Trefle_2.png" />
+    <None Remove="Ressources\Images\Trefle_3.png" />
+    <None Remove="Ressources\Images\Trefle_4.png" />
+    <None Remove="Ressources\Images\Trefle_5.png" />
+    <None Remove="Ressources\Images\Trefle_6.png" />
+    <None Remove="Ressources\Images\Trefle_7.png" />
+    <None Remove="Ressources\Images\Trefle_8.png" />
+    <None Remove="Ressources\Images\Trefle_9.png" />
+    <None Remove="Ressources\Sons\CarteDrop.mp3" />
+    <None Remove="Ressources\Sons\CarteDrop.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Ressources\autres\bg_menu.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\autres\PokerToWinIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Ressources\Images\Back.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\autres\bg_poker_table.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Carreau_12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Coeur_12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\autres\Jeton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\autres\Ordinateur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Pique_12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\autres\Poker_Mains.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Images\Trefle_13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\Sons\CarteDrop.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+
+</Project>

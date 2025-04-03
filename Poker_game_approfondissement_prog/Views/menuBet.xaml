@@ -1,0 +1,31 @@
+﻿<Window x:Class="Poker_game_approfondissement_prog.Views.menuBet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Poker_game_approfondissement_prog.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Mise" Height="450" Width="800" ResizeMode="NoResize">
+
+    <Grid x:Name="mainGrid">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Titre de la page -->
+        <TextBlock x:Name="JetonRange" Text="Choisissez un nombre de jetons  entre 1 et 100:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="16" Grid.Row="1"/>
+
+      
+
+        <Button Content="ok" Grid.Row="3" Margin="676,40,30,20" RenderTransformOrigin="1.343,0.668" Click="Button_Click"/>
+    </Grid>
+
+
+
+</Window>

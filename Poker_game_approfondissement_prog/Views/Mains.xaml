@@ -1,0 +1,162 @@
+﻿<Window x:Class="Poker_game_approfondissement_prog.Views.Mains"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Poker_game_approfondissement_prog.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Mains" Height="800" Width="1220">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="2" Grid.Column="3">
+            <Button Click="btn_Quitter_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="5" FontSize="16">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="Transparent" BorderBrush="Gray" BorderThickness="1" Width="30" Height="30">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+                ←
+            </Button>
+        </Grid>
+        <Grid Grid.Row="0" Grid.Column="0" Grid.RowSpan="14">
+            <Image Source="/Ressources/autres/Poker_Mains.png"/>
+        </Grid>
+        <StackPanel Grid.Column="2" Grid.Row="2" Orientation="Vertical" Width="900">
+            <TextBlock 
+                    TextWrapping="Wrap" 
+                    FontSize="20"
+                    FontWeight="Bold"
+                    Text="Quinte flush royale" />
+            <TextBlock 
+                    FontSize="20"
+                    TextWrapping="Wrap" 
+                    Text="La quinte flush royale est la suite « As, Roi, Dame, Valet, Dix » de même couleur." />
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="3" Orientation="Vertical" Width="900">
+            <TextBlock 
+                    TextWrapping="Wrap" 
+                    FontWeight="Bold"
+                    FontSize="20"
+                    Text="Quinte flush" />
+            <TextBlock 
+                    FontSize="20"
+                    TextWrapping="Wrap"
+                    Text="La quinte flush, ou straight flush en anglais, est une suite de même couleur." />
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="4" Orientation="Vertical" Width="900">
+            <TextBlock 
+            TextWrapping="Wrap" 
+            FontWeight="Bold"
+            FontSize="20"
+            Text="Carre" />
+            <TextBlock 
+            FontSize="20"
+            TextWrapping="Wrap"
+            Text="Le carré est constitué de 4 cartes de même valeur." />
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="5" Orientation="Vertical" Width="900">
+            <TextBlock 
+        TextWrapping="Wrap" 
+        FontWeight="Bold"
+        FontSize="20"
+        Text="Full" />
+            <TextBlock 
+        FontSize="20"
+        TextWrapping="Wrap"
+        Text="Le full est constitué d'un brelan et d'une paire." />
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="6" Orientation="Vertical" Width="900">
+            <TextBlock 
+        TextWrapping="Wrap" 
+        FontWeight="Bold"
+        FontSize="20"
+        Text="Couleur" />
+            <TextBlock 
+        FontSize="20"
+        TextWrapping="Wrap"
+        Text="La couleur est constituée de 5 cartes de même couleur." />
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="7" Orientation="Vertical" Width="900">
+            <TextBlock 
+        TextWrapping="Wrap" 
+        FontWeight="Bold"
+        FontSize="20"
+        Text="Suite" />
+            <TextBlock 
+        FontSize="20"
+        TextWrapping="Wrap"
+        Text="La suite est constituée de 5 cartes de valeurs consécutives ou de la suite « As, Roi, Dame, Valet, Dix »." />
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="8" Orientation="Vertical" Width="900">
+            <TextBlock 
+        TextWrapping="Wrap" 
+        FontWeight="Bold"
+        FontSize="20"
+        Text="Brelan" />
+            <TextBlock 
+        FontSize="20"
+        TextWrapping="Wrap"
+        Text="Le brelan est constitué de 3 cartes de même valeur." />
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="9" Orientation="Vertical" Width="900">
+            <TextBlock 
+        TextWrapping="Wrap" 
+        FontWeight="Bold"
+        FontSize="20"
+        Text="Deux Paire" />
+            <TextBlock 
+        FontSize="20"
+        TextWrapping="Wrap"
+        Text="La double paire est constituée de 2 paires simples." />
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="10" Orientation="Vertical" Width="900">
+            <TextBlock 
+        TextWrapping="Wrap" 
+        FontWeight="Bold"
+        FontSize="20"
+        Text="Paire" />
+            <TextBlock 
+        FontSize="20"
+        TextWrapping="Wrap"
+        Text="La paire est constituée de 2 cartes de même valeur." />
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="11" Grid.RowSpan="3" Orientation="Vertical" Width="900">
+            <TextBlock 
+TextWrapping="Wrap" 
+FontWeight="Bold"
+FontSize="20"
+Text="Carte Haute" />
+            <TextBlock 
+FontSize="20"
+TextWrapping="Wrap"
+Text="La carte haute est la main de base, si vous n'avez pas une autre main c'est votre carte la plus haute qui compte" />
+        </StackPanel>
+    </Grid>
+</Window>

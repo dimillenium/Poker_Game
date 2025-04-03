@@ -1,0 +1,48 @@
+﻿<Window x:Class="Poker_game_approfondissement_prog.Views.Gagnant"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Poker_game_approfondissement_prog.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Gagnant" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Orientation="Vertical" Width="700">
+                <TextBlock
+                    x:Name="WinnerMsg"
+                    TextWrapping="Wrap" 
+                    FontSize="21"
+                    Text="Bravo"
+                    HorizontalAlignment="Center"/>
+            </StackPanel>
+        <Grid Grid.Column="1" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Column="0" Grid.Row="0">
+                <Button Margin="75" Click="btnRejouer">Rejouer une partie ↺</Button>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Button Margin="75" Click="btnRetourMenu">Revenir au menu principal</Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Poker_game_approfondissement_prog.Classes.ChercherGagnant">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAAKAAAAUgACAgAAAAAAAAAAAAAAEAQAQAIBgAg=</HashCode>
+      <FileName>Classes\ChercherGagnant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Classes.Mains">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwgCAAAAQAAABgJwAgQghAKigAAAIAAQAAQABAAAAE=</HashCode>
+      <FileName>Classes\Mains.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Classes.Moteur_jeu">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAKAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Moteur_jeu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.Humain">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAgAABAAQAAAAAAA=</HashCode>
+      <FileName>Models\Humain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.Joueur">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAABAABAARAAAAAAAAAAAAAQAAgAEBAiQEAAAAQA=</HashCode>
+      <FileName>Models\Joueur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.Ordinateur">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAgAABAAQAAAAAAA=</HashCode>
+      <FileName>Models\Ordinateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.Table">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgQAAAIAAAAAAgAAAAIAAAEAQAABAEAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Classes.Fonctions">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Classes\Fonctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.Carte">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAIAAAAAAAAAAAIAIAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Carte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.CartesJeu">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CartesJeu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poker_game_approfondissement_prog.Models.CartesJeuActif">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CartesJeuActif.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
